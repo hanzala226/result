@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bo">
+  <div class="container">
+    <h2>Enter subject numbers obtained by student</h2>
+ <div class="book1">
+    <label for="">English</label>
+<input type="number" id="english">
+ </div>
+ <br>
+ <div class="book2">
+    <label for="">Urdu</label>
+<input type="number" id="urdu">
+ </div>
+ <br>
+ <div class="book3">
+    <label for="">Pakistan Studies</label>
+<input type="number" id="pst">
+ </div>
+ <br>
+ <div class="book4">
+    <label for="">physics</label>
+<input type="number" id="physics"><br>Physics Practical <input id="phyprac" type="number">
+ </div>
+ <br>
+ <div class="book5">
+    <label for="">Chemistry</label>
+<input type="number" id="chemistry"><br>Chemistry Practical<input type="number" id="cheprac"> 
+ </div>
+ <br>
+ <div class="book6">
+    <label for="">mathematics</label>
+<input type="number" id="math">
+ </div>
+ <button onclick="result()">Result</button></div></div>
+ <hr>
+ <div class="table">
+   
+ <table>
+    <thead>
+        <th>Subjects</th>
+        <th>Theory Marks</th>
+        <th>Theory Obtained Marks</th>
+        <th>Practical Marks</th>
+        <th>Practical Obatained Marks</th>
+        <th>Total Marks</th>
+       
+<th>Percentage</th>   <th>Subject Remarks</th>      <tbody>
+            <div class="eng">
+            <td >English</td>
+            <td>100</td>
+            <td id="obteng"></td>
+            <td>-</td>
+        <td>-</td>
+        <td id="totaleng"></td>
+    <td id="pereng"></td>
+<td id="eg"></td></div>
+            <tr>
+                <td>Urdu</td>
+                <td>100</td>
+                <td id="obturd"></td>
+                <td>-</td>
+               
+                <td>-</td>
+                <td id="totalurd"></td> <td id="perurd"></td><td id="ud"></td>
+            </tr>
+            <tr>
+                <td>Pakistan Studies</td>
+                <td>50</td>
+                <td id="obtpst"></td> 
+                <td>-</td>
+              <td>-</td>
+              <td id="totalpst"></td> 
+                <td id="perpst"></td><td id="pt"></td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>85</td>
+                <td id="obtphy"></td>
+                <td>15</td>
+                <td id="obtphyprac"></td> <td id="totalphy"></td> <td id="perphy"></td><td id="py"></td>
+            </tr>
+            <tr>
+                <td>Chemistry</td>
+                <td>85</td>
+                <td id="obtche"></td>
+                <td>15</td>
+                <td id="obtcheprac"></td> <td id="totalche"></td> <td id="perche"></td><td id="ct"></td>
+            </tr>
+            
+            <tr>
+                <td>Mathematics</td>
+                <td>100</td>
+                <td id="obtmath"></td> 
+                <td>-</td>
+                <td>-</td>
+                <td id="totalmath"></td><td id="permath"></td><td id="sr"></td>
+            </tr>
+        </tbody>
+    </thead>
+ </table>
+ <table>
+    <th>Total Marks</th>
+    <th>Obatained Marks</th>
+    <th>Percentage</th>
+    <th>Grade</th>
+    <th>Remarks</th>
+    <tbody>
+        <td>550</td>
+        <td id="obtain"></td>
+        <td id="percen"></td>
+        <td id="grade"></td>
+        <td id="remarks"></td>
+    </tbody>
+ </table></div>
+ <script src="first.js"></script>
+</body>
+</html>
