@@ -143,19 +143,6 @@ else{
 }
 
 
-if(document.getElementById("sr").innerHTML="<span style='color:red'>Fail</span>")
-    { document.getElementById("remarks").innerHTML="<span style='color:red;'>Fail</span>"}
-else if(document.getElementById("eg").innerHTML="<span style='color:red'>Fail</span>")
-    { document.getElementById("remarks").innerHTML="<span style='color:red;'>Fail</span>"}
-else if(document.getElementById("ud").innerHTML="<span style='color:red'>Fail</span>")
-    { document.getElementById("remarks").innerHTML="<span style='color:red;'>Fail</span>"}
-else if(document.getElementById("pt").innerHTML="<span style='color:red'>Fail</span>")
-    { document.getElementById("remarks").innerHTML="<span style='color:red;'>Fail</span>"}
-else if( document.getElementById("py").innerHTML="<span style='color:red'>Fail</span>")
-    { document.getElementById("remarks").innerHTML="<span style='color:red;'>Fail</span>"}
-else if( document.getElementById("ct").innerHTML="<span style='color:red'>Fail</span>")
-    { document.getElementById("remarks").innerHTML="<span style='color:red;'>Fail</span>"}
-
 
 
 
