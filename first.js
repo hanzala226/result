@@ -65,10 +65,10 @@ result=math
 document.getElementById("obtmath").innerHTML=result
 var ma=parseInt(document.getElementById("totalmath").innerHTML=result)
 result=math/100*100+("%")
-var m=parseInt(document.getElementById("permath").innerHTML=result)}
+var k=parseInt(document.getElementById("permath").innerHTML=result)}
 
 
-if(m<33){
+if(k<33){
     document.getElementById("sr").innerHTML="<span style='color:red'>Fail</span>";
 }
 else{
